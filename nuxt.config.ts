@@ -9,6 +9,9 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxt/content'
   ],
+  colorMode: {
+    classSuffix: '',
+  },
   components: [
     "~/components",
     {
