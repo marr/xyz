@@ -1,12 +1,10 @@
 # My First Page
 
-`code`{class="not-prose"} example
+`code` example
 
 Here is some content.
 
 ::counter
 ::
 
-::button
-oo
-::
+push me
