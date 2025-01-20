@@ -9,8 +9,16 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxt/content'
   ],
+  future: {
+    compatibilityVersion: 4
+  },
   colorMode: {
-    classSuffix: '',
+    preference: "system",
+    fallback: "dark",
+    classSuffix: "",
+  },
+  shadcn: {
+    componentDir: "~/components/ui",
   },
   components: [
     "~/components",
@@ -20,4 +28,25 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
+  content: {
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            // Default theme (same as single string)
+            default: 'github-light',
+            // Theme used if `html.dark`
+            dark: 'github-dark',
+            // Theme used if `html.sepia`
+            sepia: 'monokai'
+          }
+        }
+      }
+    },
+    renderer: {
+      alias: {
+        button: "Button",
+      },
+    },
+  },
 })
