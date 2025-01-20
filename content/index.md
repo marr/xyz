@@ -2,7 +2,7 @@
 
 `code` example
 
-Here is some content.
+Here is some content. Studio edit
 
 ::counter
 ::
