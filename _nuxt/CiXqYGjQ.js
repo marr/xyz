@@ -1,0 +1,1 @@
+import{Q as s}from"./CSG7FfW-.js";import{a as t,k as n,N as r,w as l,P as c,a8 as p,a9 as _,O as u}from"./BFq535HO.js";const m=t({__name:"SelectValue",props:{placeholder:{},asChild:{type:Boolean},as:{}},setup(e){const a=e;return(o,i)=>(n(),r(u(s),p(_(a)),{default:l(()=>[c(o.$slots,"default")]),_:3},16))}}),h=Object.assign(m,{__name:"SelectValue"});export{h as default};

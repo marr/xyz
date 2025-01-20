@@ -1,0 +1,1 @@
+import{c as a}from"./CytzSlOG.js";import{a as n,k as o,f as r,P as l,n as c,O as i}from"./BFq535HO.js";const m=n({__name:"AlertTitle",props:{class:{}},setup(e){const s=e;return(t,p)=>(o(),r("h5",{class:c(i(a)("mb-1 font-medium leading-none tracking-tight",s.class))},[l(t.$slots,"default")],2))}}),_=Object.assign(m,{__name:"AlertTitle"});export{_ as default};

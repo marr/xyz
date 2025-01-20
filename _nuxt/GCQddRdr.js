@@ -1,0 +1,1 @@
+import{Y as s}from"./CSG7FfW-.js";import{a as o,k as r,N as n,w as c,P as l,a8 as p,a9 as m,O as i}from"./BFq535HO.js";const f=o({__name:"SelectItemText",props:{asChild:{type:Boolean},as:{}},setup(e){const t=e;return(a,u)=>(r(),n(i(s),p(m(t)),{default:c(()=>[l(a.$slots,"default")]),_:3},16))}}),x=Object.assign(f,{__name:"SelectItemText"});export{x as default};
